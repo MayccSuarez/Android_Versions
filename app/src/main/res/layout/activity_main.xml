@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <GridView
-        android:id="@+id/gv_android_versions"
+        android:id="@+id/gvAndroidVersions"
         android:numColumns="2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
