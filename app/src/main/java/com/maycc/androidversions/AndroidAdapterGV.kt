@@ -26,7 +26,7 @@ class AndroidAdapterGV(var context: Context, var androids: ArrayList<Android>) :
         val android = getItem(position) as Android
 
         viewHolder.ivAndroid.setImageResource(android.image)
-        viewHolder.tvName.text = android.name
+        viewHolder.tvName.text = "${android.name} ${android.versionNumber}"
 
         return view!!
     }
